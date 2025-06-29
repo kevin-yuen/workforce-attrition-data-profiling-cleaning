@@ -26,10 +26,12 @@ The primary goal of this project was to prepare a real-world HR dataset for down
 ## Core Competencies in Data Analytics and Engineering
 
 ### Data Analysis
-- Conducted comprehensive data profiling to evaluate variable distributions, identify missing values, and generate descriptive statistics.
-- Performed visual data exploration using libraries such as `seaborn`, `matplotlib`, and `missingno` to uncover patterns and detect anomalies.
-- Applied robust outlier detection techniques, including z-score and interquartile range (IQR) methods, tailored to the underlying data distribution.
-- Executed strategic imputation of missing values using mode or median approaches based on data skewness and contextual business considerations.
+- Used `missingno’s ``.matrix()`,` .dendrogram()`, and `.heatmap()` to visualize patterns of missingness and detect correlations in null values.
+- Created boxplots and distribution plots to detect anomalies, assess skewness, and evaluate variable spread before choosing cleaning methods.
+- Assessed data types and schema alignment to inform downstream type conversions and ensure analytical readiness.
+- Evaluated categorical value consistency to detect potential formatting or labeling issues (e.g., job titles and department names).
+- Investigated relationships between features (e.g., salary vs. tenure, commute distance vs. turnover) to guide meaningful feature engineering.
+- Applied Winsorization in selected variables to cap extreme values while retaining data integrity.
 
 ### Analytics Engineering
 - Designed and implemented modular, reproducible data cleaning pipelines to ensure scalability and maintainability.
@@ -77,6 +79,7 @@ The primary goal of this project was to prepare a real-world HR dataset for down
 - **Outlier Detection**:
   - Z-score for general detection
   - IQR method for skewed variables like `annual_salary` and `driving_commuter_distance`
+  - Applied Winsorization in cases where extreme values needed to be capped without removal.
 - **Standardization**:
   - Replaced inconsistent categorical values using replacement maps
   - Resolved formatting differences using similarity matching
