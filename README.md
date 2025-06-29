@@ -8,6 +8,7 @@ In this simulated business scenario, I explored the dataset to address data qual
 
 👉 [Click here to download the final cleaned dataset](output/employer_turnover_dataset_clean.csv).
 
+
 ## Project Objectives
 
 The primary goal of this project was to prepare a real-world HR dataset for downstream analysis focused on employee turnover. Specifically, the project aimed to:
@@ -20,6 +21,7 @@ The primary goal of this project was to prepare a real-world HR dataset for down
     - Outlier detection using z-scores and the IQR method
     - Capping and binning to support downstream modeling and analysis
 - **Prepare the cleaned dataset** for future analytical tasks, including turnover prediction and retention strategy design.
+
 
 ## Core Competencies in Data Analytics and Engineering
 
@@ -43,6 +45,7 @@ The primary goal of this project was to prepare a real-world HR dataset for down
 - Utilized efficient, vectorized data transformation methods with `pandas` to optimize data processing performance.
 - Delivered a clean, deduplicated, and analysis-ready dataset in CSV format to support downstream modeling and business intelligence activities.
 
+
 ##  Tools & Technologies & Techniques
 
 | Category                                       | Tools / Libraries / Techniques                            |
@@ -55,6 +58,7 @@ The primary goal of this project was to prepare a real-world HR dataset for down
 | Statistical Methods   | `scipy.stats.zscore` (for standardized outlier detection)                           |
 | Techniques Applied    | Data profiling, missing value imputation, formatting normalization, z-score  IQR-based outlier detection, feature engineering (e.g., salary calculation, commute binning) |
 
+
 ## Key Highlights
 
 - Aligned data preparation with a real-world HR use case to support employee retention initiatives and turnover prediction.
@@ -63,6 +67,7 @@ The primary goal of this project was to prepare a real-world HR dataset for down
 - Applied robust engineering principles (schema validation, modular logic) to build a solid foundation for analytical workflows.
 - Transformed raw data into an analysis-ready format with enhanced variables (e.g., salary and commute bins), ready for modeling or dashboard integration.
 - Delivered a high-quality `.csv` dataset suitable for BI tools and predictive models, reducing time-to-insight for decision makers.
+
 
 ## Key Data Cleaning Techniques
 
@@ -82,6 +87,7 @@ The primary goal of this project was to prepare a real-world HR dataset for down
   - Removed exact duplicates
   - Casted columns to appropriate data types for analysis
 
+
 ## Project Structure
 
 ```text
@@ -97,12 +103,14 @@ workforce-attrition-data-profiling-cleaning/
 └── README.md                                      # Project overview
 ```
 
+
 ## Sample Insights Enabled by Clean Data
 
 - Distribution of tenure vs. turnover to assess attrition risk by experience
 - Salary trend comparisons across job roles or commute distance bins
 - Readiness for machine learning models predicting turnover risk
 - Clean dataset suitable for visualization in tools like Power BI
+
 
 ## Outcomes
 
