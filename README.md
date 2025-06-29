@@ -45,7 +45,7 @@ The primary goal of this project was to prepare a real-world HR dataset for down
 
 ##  Tools & Technologies & Techniques
 
-|: Category                                     :| :Tools / Libraries / Techniques                          :|
+| Category                                       | Tools / Libraries / Techniques                            |
 |:---------------------------------|:--------------------------------------------------- |
 | Programming Language      |`Python`                                                                          |
 | Development Environment | `Jupyter Notebook` (via `Anaconda`)              |
@@ -84,16 +84,18 @@ The primary goal of this project was to prepare a real-world HR dataset for down
 
 ## Project Structure
 
+```text
 workforce-attrition-data-profiling-cleaning/
 ├── data/
-│ └── raw dataset.csv # Raw data
+│   └── raw dataset.csv                            # Raw data
 ├── docs/
-│ └── employee-attrition-scenario-and-data-dictionary.docx # Business scenario + data dictionary
+│   └── employee-attrition-scenario-and-data-dictionary.docx  # Business scenario + data dictionary
 ├── notebooks/
-│ └── data-cleaning-and-profiling.ipynb # Full analysis + cleaning code
+│   └── data-cleaning-and-profiling.ipynb          # Full analysis + cleaning code
 ├── output/
-│ └── employer_turnover_dataset_clean.csv # Final cleaned dataset
-└── README.md # Project overview
+│   └── employer_turnover_dataset_clean.csv        # Final cleaned dataset
+└── README.md                                      # Project overview
+```
 
 ## Sample Insights Enabled by Clean Data
 
@@ -104,7 +106,7 @@ workforce-attrition-data-profiling-cleaning/
 
 ## Outcomes
 
-|: Deliverable                                       :|:Description                                          :| 
+|Deliverable                                            |Description                                          | 
 |:------------------------------------------|:-----------------------------------------------|
 | Cleaned Dataset (`CSV`)                       | Free of duplicates, missing values, and invalid entries |
 | Data Cleaning Notebook (`.ipynb`)   | Step-by-step documented cleaning process                    |
